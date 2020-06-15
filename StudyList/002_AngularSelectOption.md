@@ -2,7 +2,7 @@
 
 1. 기본방법
 - html에 직접 select 목록 넣는방법
-<pre><code> 
+```html
     <mat-form-field>
       <mat-select name="countryString" [(value)]="selectedCountry" placeholder="Country">
         <mat-option [value]="'GB'">Great Britain</mat-option>
@@ -10,7 +10,9 @@
         <mat-option [value]="'CA'">Canada</mat-option>
       </mat-select>
     </mat-form-field>
-</code></pre>
+```
+   
+   
 
 2. component에서 Array관리
 - 국가 목록 같은 경우는 공통으로 사용할거 같아서, html에 직접 쓰는것보다, array로 관리하는게 나을거 같아서, 작성해보았다.
@@ -46,4 +48,4 @@
     ```
     > country.value 는 실제 값이고, country.viewValue는 셀렉트 박스에 보이는 값이다.
     
-
+<img src="/img/002_selectBoxImage.png" width="40%" height="30%" title="selectOption" alt="SelectTest"></img>
