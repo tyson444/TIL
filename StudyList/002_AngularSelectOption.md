@@ -47,5 +47,7 @@
         </div>
     ```
     > country.value 는 실제 값이고, country.viewValue는 셀렉트 박스에 보이는 값이다.
-    
-<img src="/img/002_selectBoxImage.png" width="40%" height="30%" title="selectOption" alt="SelectTest"></img>
+       
+    아래와같이 리스트가 보인다.
+       
+<img src="img/002_selectBoxImage.png" width="40%" height="30%" title="selectOption" alt="SelectTest"></img>
